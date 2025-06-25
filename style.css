@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, serif;
+  background-color: #fff;
+  color: #222;
+}
+header {
+  background: #1e3d59;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+.logo-name {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.site-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  padding: 40px;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-image {
+  width: 300px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+/* About Section */
+.about {
+  display: flex;
+  padding: 40px;
+  gap: 40px;
+  align-items: center;
+  border-top: 1px solid #ddd;
+}
+
+.about-photo {
+  width: 300px;
+  border-radius: 6px;
+}
+
+.about-text h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.education {
+  padding: 40px;
+  text-align: center;
+}
+
+.education h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.education-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.edu-card {
+  background-color: #fff;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.edu-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.edu-card h3 {
+  margin-top: 15px;
+  font-size: 20px;
+  color: #2c5962;
+}
+
+.edu-card p {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #444;
+  line-height: 1.5;
+}
+.skills-section {
+  padding: 40px;
+  text-align: center;
+}
+
+.skills-section h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.skill-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.skill-card {
+  width: 400px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.skill-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.skill-card h3 {
+  margin: 15px 0 5px;
+  font-size: 20px;
+  color: #2c5962;
+}
+
+.skill-card p {
+  padding: 0 15px 20px;
+  color: #444;
+  font-size: 15px;
+}
+
+.skill-card:hover {
+  transform: scale(1.03);
+}
+.hobbies {
+  padding: 40px;
+  text-align: center;
+}
+
+.hobbies h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #111;
+}
+
+.hobby-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.hobby-card {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.hobby-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.hobby-card h3 {
+  margin: 10px 0 20px;
+  font-size: 20px;
+  color: #2c5962;
+  font-weight: bold;
+}
+
+.hobby-card:hover {
+  transform: translateY(-5px);
+}
+.favorite-player {
+  padding: 40px;
+  text-align: center;
+}
+
+.player-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.player-content img {
+  width: 400px;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.player-info {
+  max-width: 400px;
+  text-align: left;
+}
+
+.player-info h2 {
+  color: #2c5962;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.player-info p {
+  font-size: 18px;
+  color: #333;
+}
+
+.footer {
+  background-color: #e8f0f2;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer p {
+  font-size: 18px;
+  color: #2c5962;
+  font-weight: bold;
+}
+.contact {
+  text-align: center;
+  padding: 40px 20px;
+ background-color: #fff;
+}
+
+.contact-banner img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+}
+
+.contact-info {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a img {
+  width: 35px;
+  height: 35px;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a img:hover {
+  transform: scale(1.2);
+}
+
+
